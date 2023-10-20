@@ -1,0 +1,42 @@
+{
+  "name": "taskify",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "pinia": "^2.0.23",
+    "roboto-fontface": "*",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.21.4",
+    "@iconify-json/carbon": "^1.1.21",
+    "@miragejs/graphql": "^0.1.13",
+    "@types/node": "^18.15.0",
+    "@unhead/vue": "^1.7.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "miragejs": "^0.1.47",
+    "typescript": "^5.0.0",
+    "unocss": "^0.56.5",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-fonts": "^1.0.3",
+    "unplugin-vue-components": "^0.25.2",
+    "unplugin-vue-router": "^0.7.0",
+    "vite": "^4.2.0",
+    "vite-plugin-vue-meta-layouts": "^0.3.1",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vitest": "^0.34.6",
+    "vue-tsc": "^1.2.0"
+  }
+}
